@@ -1,4 +1,5 @@
 package CollectionFramework;
+import java.util.LinkedList;
 import java.util.*;
 
 public class Collection {
@@ -22,9 +23,10 @@ public class Collection {
 		System.out.println(names.get(0));
 		//un type safe
 		LinkedList list = new LinkedList();
-		list.add("krishna");
-		list.add(3344);
-		list.add(true);
+		list.add(99);
+		list.getFirst();
+		
+		
 		System.out.println(list);
 		
 		
