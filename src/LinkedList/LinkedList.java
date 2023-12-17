@@ -4,7 +4,7 @@ import LinkedList.LinkedList.Node;
 
 public class LinkedList {
     
-	Node head; //Head of list
+	public Node head; //Head of list
 	
 	//Linked list node
 	// This inner class is made static
